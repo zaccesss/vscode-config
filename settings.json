@@ -1,0 +1,28 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "files.autoSave": "onWindowChange",
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14,
+    "git.autofetch": true,
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "ROOT"
+        }
+    ],
+    "mssql.autoDisableNonTSqlLanguageService": true,
+    "diffEditor.maxComputationTime": 0,
+    "debug.allowBreakpointsEverywhere": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "stm32cube-ide-core.enableOfflineMode": false,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.enablePersistentSessions": false,
+    "yaml.disableSchemaDetection": [
+        "**/.github/workflows/*.yml",
+        "**/.github/workflows/*.yaml",
+        "**/.gitea/workflows/*.yml",
+        "**/.gitea/workflows/*.yaml",
+        "**/.forgejo/workflows/*.yml",
+        "**/.forgejo/workflows/*.yaml"
+    ]
+}
