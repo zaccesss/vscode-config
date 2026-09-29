@@ -1,0 +1,58 @@
+name: Config Lint
+
+# Validates that every JSON file parses. VS Code allows comments in settings-style
+# files, so full-line // comments are stripped before parsing.
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Validate JSON config
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Parse every JSON config file
+        run: |
+          python3 - <<'PYEOF'
+          import glob, json, re, sys
+          files = ["settings.json", "argv.json", "global.code-snippets"] + glob.glob("keybindings/*.json") + glob.glob("templates/*.json")
+          bad = 0
+          for f in files:
+              text = re.sub(r"^\s*//.*$", "", open(f).read(), flags=re.M)
+              try:
+                  json.loads(text)
+                  print("ok", f)
+              except ValueError as e:
+                  print("::error file=%s::%s" % (f, e))
+                  bad = 1
+          sys.exit(bad)
+          PYEOF
+
+      - name: Check every extension line is publisher.name@version or a // comment
+        run: |
+          hit=0
+          while IFS= read -r line; do
+            [ -z "$line" ] && continue
+            case "$line" in
+              //*) continue ;;
+              *.*@*) continue ;;
+              *)
+                echo "::error file=extensions.txt::malformed line: $line"
+                hit=1
+                ;;
+            esac
+          done < extensions.txt
+          exit "$hit"
