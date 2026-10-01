@@ -16,3 +16,8 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Launch and task templates for Python, Node, C and C++, Java and Go
 - Setup, reference and extension guides
 - CI that validates every JSON file
+- `ACCESSIBILITY.md`: the High Contrast theme, word wrap and the one-pattern shortcuts.
+
+### Changed
+
+- Tidied code comments and the contributor guide.
