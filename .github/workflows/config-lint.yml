@@ -1,6 +1,6 @@
 name: Config Lint
 
-# Validates that every JSON file parses. VS Code allows comments in settings-style
+# validates that every JSON file parses. VS Code allows comments in settings-style
 # files, so full-line // comments are stripped before parsing.
 
 on:
