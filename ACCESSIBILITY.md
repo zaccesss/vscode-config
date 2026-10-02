@@ -2,11 +2,17 @@
 
 The settings put readability first and every custom shortcut follows one pattern.
 
+> [!NOTE]
+> Some of these settings are preferences rather than requirements. Change them freely in your own copy. If a change would help other people too, open an issue or a pull request so I can consider it for everyone.
+
 ## Vision
 
 - The colour theme is VS Code's built-in `Default High Contrast`.
 - Word wrap is on, so long lines never need horizontal scrolling. `Cmd+Alt+W` (`Ctrl+Alt+W` on Windows and Linux) switches it off for one file.
 - The editor font is 14 points. Raise `editor.fontSize` in `settings.json` as needed.
+
+> [!TIP]
+> For a light scheme with the same contrast, set `workbench.colorTheme` to `Default High Contrast Light` in `settings.json`.
 
 ## Keyboard
 
@@ -21,3 +27,8 @@ The settings put readability first and every custom shortcut follows one pattern
 ## Feedback wanted
 
 If something here gets in the way, open an [issue](https://github.com/zaccesss/vscode-config/issues/new/choose) describing what happened and what would work better.
+
+## The shared statement
+
+> [!NOTE]
+> I keep one shared accessibility statement for all my projects: [zaccesss/accessibility](https://github.com/zaccesss/accessibility) or on [my site](https://isaacadjei.me/accessibility). This file takes precedence where the two differ.
