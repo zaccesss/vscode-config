@@ -15,6 +15,7 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- `bierner.markdown-mermaid` in `extensions.txt` and in the extensions guide, so Mermaid diagrams show in the markdown preview.
 - Initial release: settings, keybindings for macOS and for Windows and Linux, global snippets,
   launch flags and a curated extension list
 - Launch and task templates for Python, Node, C and C++, Java and Go
