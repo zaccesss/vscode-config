@@ -62,7 +62,7 @@ them with any workspace-level snippets automatically.
 
 ## Extensions, by category
 
-`extensions.txt` groups 93 extensions under `//` headers by rough purpose. The install command in
+`extensions.txt` groups 94 extensions under `//` headers by rough purpose. The install command in
 [setup.md](setup.md) filters the headers out. What each one does is in
 [extensions.md](extensions.md).
 

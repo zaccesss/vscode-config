@@ -103,6 +103,7 @@ vscodevim.vim@1.32.4
 // Formatting and viewing niceties
 davidanson.vscode-markdownlint@0.62.1
 shd101wyy.markdown-preview-enhanced@0.8.34
+bierner.markdown-mermaid@1.32.1
 tomoki1207.pdf@1.2.2
 zainchen.json@2.0.2
 timheuer.jsondbg@0.2.3
