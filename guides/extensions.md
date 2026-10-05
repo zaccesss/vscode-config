@@ -101,6 +101,7 @@ What every installed extension does and when it actually gets used. Grouped the 
 
 - **`davidanson.vscode-markdownlint`** - lints markdown files, the same linter this repo's own CI runs.
 - **`shd101wyy.markdown-preview-enhanced`** - a richer markdown preview than VS Code's built-in one (diagrams, math, presentation export).
+- **`bierner.markdown-mermaid`** - draws Mermaid diagrams (flowcharts, sequence diagrams and so on) in VS Code's built-in markdown preview, so diagrams in notes and READMEs show up without leaving the editor.
 - **`tomoki1207.pdf`** - opens and renders PDF files directly inside a VS Code tab.
 - **`zainchen.json`** - additional JSON formatting and validation niceties.
 - **`timheuer.jsondbg`** - a JSON debugging and inspection helper for exploring large or deeply nested JSON structures.
