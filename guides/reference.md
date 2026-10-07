@@ -8,6 +8,10 @@ deliberately not tracked here.
 | Key | Value | Why |
 | --- | --- | --- |
 | `workbench.colorTheme` | `Default High Contrast` | High contrast over a standard dark or light theme for readability. |
+| `window.autoDetectColorScheme` | `true` | Follows the system: dark mode uses `Default High Contrast`, light mode `Default High Contrast Light`. |
+| `workbench.preferredDarkColorTheme`, `workbench.preferredLightColorTheme` | `Default High Contrast`, `Default High Contrast Light` | The two themes the system switch picks between. |
+| `workbench.colorCustomizations` | the High Contrast palette per theme | The integrated terminal uses the same 16 colours as [terminal-config](https://github.com/zaccesss/terminal-config)'s High Contrast palette, dark and light. |
+| `terminal.integrated.drawBoldTextInBrightColors` | `false` | Bold text keeps its colour rather than switching to the softer bright row. |
 | `files.autoSave` | `onWindowChange` | Saves the moment focus leaves VS Code, without the noisy diffs `afterDelay` produces mid-edit. |
 | `editor.wordWrap` | `on` | Long lines wrap instead of requiring horizontal scroll. |
 | `editor.fontSize` | `14` | A readability preference. |

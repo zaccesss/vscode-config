@@ -27,7 +27,7 @@ Full walkthrough in [guides/setup.md](guides/setup.md).
 
 | Path | Contents |
 | --- | --- |
-| [`ACCESSIBILITY.md`](ACCESSIBILITY.md) | The High Contrast theme, word wrap and the one-pattern shortcuts |
+| [`ACCESSIBILITY.md`](ACCESSIBILITY.md) | The High Contrast themes for light and dark mode, word wrap and the one-pattern shortcuts |
 | [`keybindings/`](keybindings/) | Keybindings per platform family |
 | [`templates/`](templates/) | Per-project debug and task templates |
 | [`guides/`](guides/) | Setup, settings reference and extension detail |
