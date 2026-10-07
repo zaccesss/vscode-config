@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Default High Contrast",
-    "window.autoDetectColorScheme": true,
+    "window.autoDetectColorScheme": false,
     "workbench.preferredDarkColorTheme": "Default High Contrast",
     "workbench.preferredLightColorTheme": "Default High Contrast Light",
     "terminal.integrated.drawBoldTextInBrightColors": false,
