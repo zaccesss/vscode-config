@@ -7,13 +7,13 @@ The settings put readability first and every custom shortcut follows one pattern
 
 ## Vision
 
-- The colour theme follows the system: VS Code's built-in `Default High Contrast` in dark mode and `Default High Contrast Light` in light mode.
-- The integrated terminal uses the High Contrast palette from [terminal-config](https://github.com/zaccesss/terminal-config): vivid colours on black in dark mode, every colour at 7:1 or more on white in light mode. Bold text keeps its colour.
+- The colour theme is VS Code's built-in `Default High Contrast`.
+- The integrated terminal uses the High Contrast palette from [terminal-config](https://github.com/zaccesss/terminal-config): vivid colours on black, with a light version where every colour reaches 7:1 or more on white. Bold text keeps its colour.
 - Word wrap is on, so long lines never need horizontal scrolling. `Cmd+Alt+W` (`Ctrl+Alt+W` on Windows and Linux) switches it off for one file.
 - The editor font is 14 points. Raise `editor.fontSize` in `settings.json` as needed.
 
 > [!TIP]
-> To stay on one theme whatever the system does, set `window.autoDetectColorScheme` to `false` in `settings.json`.
+> To switch to `Default High Contrast Light` whenever the system is in light mode, set `window.autoDetectColorScheme` to `true` in `settings.json`. Its terminal colours are already set.
 
 ## Keyboard
 

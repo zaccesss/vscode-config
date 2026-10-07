@@ -11,7 +11,7 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
-- The theme follows the system's light and dark setting, switching between `Default High Contrast` and `Default High Contrast Light`. The integrated terminal uses the High Contrast palette from terminal-config in both. Bold text keeps its colour.
+- The integrated terminal uses the High Contrast palette from terminal-config, for both `Default High Contrast` and `Default High Contrast Light`. The theme stays on `Default High Contrast`; turning on `window.autoDetectColorScheme` switches to the light one in light mode. Bold text keeps its colour.
 - Pull request branches are never pulled automatically (`githubPullRequests.pullBranch`), so checking out a pull request never changes the working tree on its own.
 - `ACCESSIBILITY.md`: a note that the settings are preferences, a callout for the light high-contrast theme and a link to the shared accessibility statement.
 
