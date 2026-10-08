@@ -19,6 +19,7 @@ jobs:
   lint:
     name: Validate JSON config
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
