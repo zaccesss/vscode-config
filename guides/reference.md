@@ -24,7 +24,7 @@ deliberately not tracked here.
 | `stm32cube-ide-core.enableOfflineMode` | `false` | Lets the STM32Cube extension check for board and package updates online. |
 | `terminal.integrated.persistentSessionReviveProcess` | `never` | A revived terminal session after a restart can reattach to a stale shell state. |
 | `terminal.integrated.enablePersistentSessions` | `false` | A clean shell every time VS Code reopens, for the same reason. |
-| `terminal.integrated.defaultProfile.windows` | `"PowerShell 7"` | On Windows, new terminals open PowerShell 7 through its launcher in `WindowsApps`, a path that stays the same when PowerShell updates. |
+| `terminal.integrated.defaultProfile.windows` | `"PowerShell 7"` | On Windows, new terminals open PowerShell 7 through its launcher in `WindowsApps`, a path that stays the same when PowerShell updates. It starts with `-NoLogo`, so the version header and the profile load time message stay hidden. |
 | `yaml.disableSchemaDetection` | workflow globs | Stops the YAML extension guessing a schema for CI workflow files, where the platform's own schema applies. |
 
 ## `argv.json`
