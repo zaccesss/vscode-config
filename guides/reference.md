@@ -8,8 +8,8 @@ deliberately not tracked here.
 | Key | Value | Why |
 | --- | --- | --- |
 | `workbench.colorTheme` | `Default High Contrast` | High contrast over a standard dark or light theme for readability. |
-| `window.autoDetectColorScheme` | `false` | Stays on `Default High Contrast` whatever the system does. Set it to `true` to switch to `Default High Contrast Light` in light mode. |
-| `workbench.preferredDarkColorTheme`, `workbench.preferredLightColorTheme` | `Default High Contrast`, `Default High Contrast Light` | The two themes used if `window.autoDetectColorScheme` is turned on. |
+| `window.autoDetectColorScheme` | `true` | Follows the system: `Default High Contrast` in dark mode and `Default High Contrast Light` in light mode, the same as the terminal and the other editors. |
+| `workbench.preferredDarkColorTheme`, `workbench.preferredLightColorTheme` | `Default High Contrast`, `Default High Contrast Light` | The two themes `window.autoDetectColorScheme` switches between. |
 | `workbench.colorCustomizations` | the High Contrast palette per theme | The integrated terminal uses the same 16 colours as [terminal-config](https://github.com/zaccesss/terminal-config)'s High Contrast palette, dark and light. |
 | `terminal.integrated.drawBoldTextInBrightColors` | `false` | Bold text keeps its colour rather than switching to the softer bright row. |
 | `files.autoSave` | `onWindowChange` | Saves the moment focus leaves VS Code, without the noisy diffs `afterDelay` produces mid-edit. |
@@ -24,6 +24,7 @@ deliberately not tracked here.
 | `stm32cube-ide-core.enableOfflineMode` | `false` | Lets the STM32Cube extension check for board and package updates online. |
 | `terminal.integrated.persistentSessionReviveProcess` | `never` | A revived terminal session after a restart can reattach to a stale shell state. |
 | `terminal.integrated.enablePersistentSessions` | `false` | A clean shell every time VS Code reopens, for the same reason. |
+| `terminal.integrated.defaultProfile.windows` | `"PowerShell 7"` | On Windows, new terminals open PowerShell 7 through its launcher in `WindowsApps`, a path that stays the same when PowerShell updates. |
 | `yaml.disableSchemaDetection` | workflow globs | Stops the YAML extension guessing a schema for CI workflow files, where the platform's own schema applies. |
 
 ## `argv.json`
