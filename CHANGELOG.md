@@ -9,6 +9,10 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+- On Windows the integrated terminal opens PowerShell 7 by default, through its launcher in `WindowsApps`, so the path keeps working when PowerShell updates.
+
 ### Changed
 
 - The integrated terminal uses the High Contrast palette from terminal-config, for both `Default High Contrast` and `Default High Contrast Light`. The theme stays on `Default High Contrast`; turning on `window.autoDetectColorScheme` switches to the light one in light mode. Bold text keeps its colour.

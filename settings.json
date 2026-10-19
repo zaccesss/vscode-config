@@ -67,6 +67,13 @@
     "stm32cube-ide-core.enableOfflineMode": false,
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell 7": {
+            "path": "${env:LOCALAPPDATA}\\Microsoft\\WindowsApps\\pwsh.exe",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell 7",
     "yaml.disableSchemaDetection": [
         "**/.github/workflows/*.yml",
         "**/.github/workflows/*.yaml",
