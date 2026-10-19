@@ -70,6 +70,7 @@
     "terminal.integrated.profiles.windows": {
         "PowerShell 7": {
             "path": "${env:LOCALAPPDATA}\\Microsoft\\WindowsApps\\pwsh.exe",
+            "args": ["-NoLogo"],
             "icon": "terminal-powershell"
         }
     },
