@@ -40,6 +40,7 @@ ms-toolsai.jupyter-keymap@1.1.2
 ms-toolsai.jupyter-renderers@1.3.0
 ms-toolsai.vscode-jupyter-cell-tags@0.1.9
 ms-toolsai.vscode-jupyter-slideshow@0.1.6
+google.colab@0.9.7
 
 // Java and JVM
 redhat.java@1.56.0
@@ -91,6 +92,7 @@ github.vscode-github-actions@0.32.3
 // Containers and cloud
 ms-azuretools.vscode-containers@2.5.0
 ms-edgedevtools.vscode-edge-devtools@2.1.10
+ms-vscode-remote.remote-wsl@0.104.3
 
 // Editor quality of life
 redhat.vscode-yaml@1.24.0
@@ -115,3 +117,6 @@ tamasfe.even-better-toml@0.21.2
 icrawl.discord-vscode@5.9.2
 leonardssh.vscord@5.3.9
 wakatime.vscode-wakatime@30.2.1
+
+// Themes
+zacess.zacess-themes@0.1.2

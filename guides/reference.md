@@ -67,24 +67,25 @@ them with any workspace-level snippets automatically.
 
 ## Extensions, by category
 
-`extensions.txt` groups 94 extensions under `//` headers by rough purpose. The install command in
+`extensions.txt` groups 97 extensions under `//` headers by rough purpose. The install command in
 [setup.md](setup.md) filters the headers out. What each one does is in
 [extensions.md](extensions.md).
 
 | Category | Examples |
 | --- | --- |
 | C/C++ and embedded | `ms-vscode.cpptools*`, `llvm-vs-code-extensions.lldb-dap`, `platformio.platformio-ide`, `wokwi.wokwi-vscode`, the `stmicroelectronics.stm32cube-ide-*` set |
-| Python and Jupyter | `ms-python.*`, `ms-toolsai.jupyter*` |
+| Python and Jupyter | `ms-python.*`, `ms-toolsai.jupyter*`, `google.colab` |
 | Java and JVM | `redhat.java`, `vscjava.*`, `oracle.oracle-java` |
 | .NET and C# | `ms-dotnettools.*` |
 | Web and JavaScript | `bradlc.vscode-tailwindcss`, `dbaeumer.vscode-eslint`, `esbenp.prettier-vscode`, `ritwickdey.liveserver` |
 | Go, PHP, Swift, PowerShell | `golang.go`, `bmewburn.vscode-intelephense-client`, `swiftlang.swift-vscode`, `ms-vscode.powershell` |
 | Databases | `ms-mssql.*`, `cweijan.*`, `mtxr.sqltools`, `formulahendry.vscode-mysql` |
 | Git and GitHub | `eamodio.gitlens`, `github.vscode-pull-request-github`, `github.vscode-github-actions` |
-| Containers and cloud | `ms-azuretools.vscode-containers`, `ms-edgedevtools.vscode-edge-devtools` |
+| Containers and cloud | `ms-azuretools.vscode-containers`, `ms-edgedevtools.vscode-edge-devtools`, `ms-vscode-remote.remote-wsl` |
 | Editor quality of life | `usernamehw.errorlens`, `streetsidesoftware.code-spell-checker`, `editorconfig.editorconfig`, `vscodevim.vim` |
 | Formatting and viewing niceties | `davidanson.vscode-markdownlint`, `shd101wyy.markdown-preview-enhanced`, `tomoki1207.pdf`, `adpyke.codesnap` |
 | Presence and time tracking | `icrawl.discord-vscode`, `leonardssh.vscord`, `wakatime.vscode-wakatime` |
+| Themes | `zacess.zacess-themes` |
 
 ## Templates
 

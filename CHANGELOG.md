@@ -11,6 +11,7 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- `ms-vscode-remote.remote-wsl`, `google.colab` and `zacess.zacess-themes` in `extensions.txt`, the extensions guide and the reference guide. The documented total is now 97 extensions.
 - On Windows the integrated terminal opens PowerShell 7 by default, through its launcher in `WindowsApps`, so the path keeps working when PowerShell updates. It starts with `-NoLogo`, so only the welcome banner shows.
 - `bierner.markdown-mermaid` in `extensions.txt` and in the extensions guide, so Mermaid diagrams show in the markdown preview.
 - Initial release: settings, keybindings for macOS and for Windows and Linux, global snippets,

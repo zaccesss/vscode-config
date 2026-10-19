@@ -30,6 +30,7 @@ What every installed extension does and when it actually gets used. Grouped the 
 - **`ms-toolsai.jupyter-keymap`** - classic Jupyter Notebook keybindings inside VS Code's notebook editor.
 - **`ms-toolsai.jupyter-renderers`** - rich output rendering (plots, HTML, LaTeX) inside notebook cells.
 - **`ms-toolsai.vscode-jupyter-cell-tags`** and **`vscode-jupyter-slideshow`** - cell metadata tagging and slideshow-mode support for notebooks.
+- **`google.colab`** - connects a local notebook to a Google Colab runtime, so a notebook opened in VS Code can run on Colab's hosted CPUs and GPUs.
 
 ## Java and JVM
 
@@ -87,6 +88,7 @@ What every installed extension does and when it actually gets used. Grouped the 
 
 - **`ms-azuretools.vscode-containers`** - Docker and container management: building images, running containers, viewing logs, directly from the editor.
 - **`ms-edgedevtools.vscode-edge-devtools`** - Edge DevTools embedded in VS Code, for inspecting and debugging a webpage without switching to the browser.
+- **`ms-vscode-remote.remote-wsl`** - opens a folder inside WSL2 on Windows, with the editor's language servers, terminal and debugger running in the Linux distribution. It does nothing on macOS or Linux.
 
 ## Editor quality of life
 
@@ -113,3 +115,7 @@ What every installed extension does and when it actually gets used. Grouped the 
 
 - **`icrawl.discord-vscode`** and **`leonardssh.vscord`** - two different Discord Rich Presence integrations, showing what's being worked on as a Discord status.
 - **`wakatime.vscode-wakatime`** - automatic coding time tracking and statistics via WakaTime.
+
+## Themes
+
+- **`zacess.zacess-themes`** - the Zacess colour themes, installed so the themes can be checked in the editor they ship for.
