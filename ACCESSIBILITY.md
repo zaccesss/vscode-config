@@ -13,7 +13,7 @@ The settings put readability first and every custom shortcut follows one pattern
 - The editor font is 14 points. Raise `editor.fontSize` in `settings.json` as needed.
 
 > [!TIP]
-> The theme follows the system: `Default High Contrast` in dark mode and `Default High Contrast Light` in light mode, each with its own terminal colours. Set `window.autoDetectColorScheme` to `false` in `settings.json` to stay on one theme.
+> To switch to `Default High Contrast Light` whenever the system is in light mode, set `window.autoDetectColorScheme` to `true` in `settings.json`. Its terminal colours are already set.
 
 ## Keyboard
 
