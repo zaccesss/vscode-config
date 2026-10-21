@@ -88,6 +88,10 @@ What every installed extension does and when it actually gets used. Grouped the 
 - **`ms-azuretools.vscode-containers`** - Docker and container management: building images, running containers, viewing logs, directly from the editor.
 - **`ms-edgedevtools.vscode-edge-devtools`** - Edge DevTools embedded in VS Code, for inspecting and debugging a webpage without switching to the browser.
 
+## Themes
+
+- **`zacess.zacess-themes`** - the eight Zacess colour themes. `Zacess Deep Contrast Dark` is the theme `settings.json` sets; the other seven, `Zacess Deep Contrast Light` among them, are in the theme picker.
+
 ## Editor quality of life
 
 - **`redhat.vscode-yaml`** - YAML language support (schema validation, autocomplete), used for CI workflow files and any project YAML.

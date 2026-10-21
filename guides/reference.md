@@ -7,10 +7,10 @@ deliberately not tracked here.
 
 | Key | Value | Why |
 | --- | --- | --- |
-| `workbench.colorTheme` | `Default High Contrast` | High contrast over a standard dark or light theme for readability. |
-| `window.autoDetectColorScheme` | `true` | Follows the system: `Default High Contrast` in dark mode and `Default High Contrast Light` in light mode, the same as the terminal and the other editors. |
-| `workbench.preferredDarkColorTheme`, `workbench.preferredLightColorTheme` | `Default High Contrast`, `Default High Contrast Light` | The two themes `window.autoDetectColorScheme` switches between. |
-| `workbench.colorCustomizations` | the High Contrast palette per theme | The integrated terminal uses the same 16 colours as [terminal-config](https://github.com/zaccesss/terminal-config)'s High Contrast palette, dark and light. |
+| `workbench.colorTheme` | `Zacess Deep Contrast Dark` | Deep saturated colours at about 9:1 on black from the `zacess.zacess-themes` extension, for readability over a standard dark or light theme. |
+| `window.autoDetectColorScheme` | `false` | The theme stays fixed whatever the system appearance. `true` switches between the two preferred themes with the system. |
+| `workbench.preferredDarkColorTheme`, `workbench.preferredLightColorTheme` | `Zacess Deep Contrast Dark`, `Zacess Deep Contrast Light` | The pair used when `window.autoDetectColorScheme` is turned on. |
+| `workbench.colorCustomizations` | the earlier High Contrast terminal palette, scoped to `Default High Contrast` and `Default High Contrast Light` | Only applies if one of the built-in high contrast themes is picked again. The Zacess themes carry their own 16 terminal colours. |
 | `terminal.integrated.drawBoldTextInBrightColors` | `false` | Bold text keeps its colour rather than switching to the softer bright row. |
 | `files.autoSave` | `onWindowChange` | Saves the moment focus leaves VS Code, without the noisy diffs `afterDelay` produces mid-edit. |
 | `editor.wordWrap` | `on` | Long lines wrap instead of requiring horizontal scroll. |
@@ -67,7 +67,7 @@ them with any workspace-level snippets automatically.
 
 ## Extensions, by category
 
-`extensions.txt` groups 94 extensions under `//` headers by rough purpose. The install command in
+`extensions.txt` groups 95 extensions under `//` headers by rough purpose. The install command in
 [setup.md](setup.md) filters the headers out. What each one does is in
 [extensions.md](extensions.md).
 
