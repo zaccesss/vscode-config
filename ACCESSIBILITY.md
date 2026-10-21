@@ -7,13 +7,13 @@ The settings put readability first and every custom shortcut follows one pattern
 
 ## Vision
 
-- The colour theme is VS Code's built-in `Default High Contrast`.
-- The integrated terminal uses the High Contrast palette from [terminal-config](https://github.com/zaccesss/terminal-config): vivid colours on black, with a light version where every colour reaches 7:1 or more on white. Bold text keeps its colour.
+- The colour theme is `Zacess Deep Contrast Dark` from the [Zacess Themes](https://marketplace.visualstudio.com/items?itemName=zacess.zacess-themes) extension: white on pure black with deep, fully saturated colours at about 9:1 and yellow and cyan outlines.
+- The integrated terminal takes its 16 colours from the same theme. Bold text keeps its colour.
 - Word wrap is on, so long lines never need horizontal scrolling. `Cmd+Alt+W` (`Ctrl+Alt+W` on Windows and Linux) switches it off for one file.
 - The editor font is 14 points. Raise `editor.fontSize` in `settings.json` as needed.
 
 > [!TIP]
-> The theme follows the system: `Default High Contrast` in dark mode and `Default High Contrast Light` in light mode, each with its own terminal colours. Set `window.autoDetectColorScheme` to `false` in `settings.json` to stay on one theme.
+> The theme stays on `Zacess Deep Contrast Dark` whatever the system appearance, since `window.autoDetectColorScheme` is `false`. All eight Zacess themes are in the theme picker (`Cmd+K Cmd+T`, `Ctrl+K Ctrl+T` on Windows and Linux). Set `window.autoDetectColorScheme` to `true` to switch between `Zacess Deep Contrast Dark` and `Zacess Deep Contrast Light` with the system instead.
 
 ## Keyboard
 
