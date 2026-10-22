@@ -115,5 +115,5 @@ What every installed extension does and when it actually gets used. Grouped the 
 
 ## Presence and time tracking
 
-- **`icrawl.discord-vscode`** and **`leonardssh.vscord`** - two different Discord Rich Presence integrations, showing what's being worked on as a Discord status.
+- **`icrawl.discord-vscode`** and **`leonardssh.vscord`** - two different Discord Rich Presence integrations, showing what's being worked on as a Discord status. Both show the file type only (for example "Editing a TypeScript file") and never a file, workspace or repository name.
 - **`wakatime.vscode-wakatime`** - automatic coding time tracking and statistics via WakaTime.
