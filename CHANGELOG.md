@@ -9,8 +9,12 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.0.1] - 2026-10-22
+
 ### Changed
 
+- The integrated terminal uses `GeistMono Nerd Font` (`terminal.integrated.fontFamily`), so Nerd Font prompt symbols draw. The font is free and must be installed from the Nerd Fonts releases; `guides/reference.md` links it. The editor font is unchanged.
+- Discord presence shows the file type only: the two Discord extensions no longer send the file name, the workspace name or a repository button.
 - The theme is now `Zacess Deep Contrast Dark` from the Zacess Themes extension, fixed whatever the system appearance (`window.autoDetectColorScheme` is `false`), in place of the built-in high contrast pair following the system. `Zacess Deep Contrast Light` is the preferred light theme for anyone who turns following back on. All eight Zacess themes are in the picker. `zacess.zacess-themes@0.3.0` is in `extensions.txt` under a new Themes header.
 
 ## 2026-10-19

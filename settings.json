@@ -53,6 +53,7 @@
     "files.autoSave": "onWindowChange",
     "editor.wordWrap": "on",
     "editor.fontSize": 14,
+    "terminal.integrated.fontFamily": "GeistMono Nerd Font",
     "git.autofetch": true,
     "mssql.connectionGroups": [
         {
@@ -83,5 +84,12 @@
         "**/.forgejo/workflows/*.yml",
         "**/.forgejo/workflows/*.yaml"
     ],
-    "githubPullRequests.pullBranch": "never"
+    "githubPullRequests.pullBranch": "never",
+    "discord.detailsEditing": "Editing a {Lang} file",
+    "discord.detailsDebugging": "Debugging a {Lang} file",
+    "discord.removeLowerDetails": true,
+    "discord.largeImage": "Editing a {Lang} file",
+    "vscord.app.privacyMode.enable": true,
+    "vscord.status.buttons.button1.enabled": false,
+    "vscord.status.buttons.button2.enabled": false
 }

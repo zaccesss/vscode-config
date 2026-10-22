@@ -15,6 +15,7 @@ deliberately not tracked here.
 | `files.autoSave` | `onWindowChange` | Saves the moment focus leaves VS Code, without the noisy diffs `afterDelay` produces mid-edit. |
 | `editor.wordWrap` | `on` | Long lines wrap instead of requiring horizontal scroll. |
 | `editor.fontSize` | `14` | A readability preference. |
+| `terminal.integrated.fontFamily` | `"GeistMono Nerd Font"` | The integrated terminal draws the Nerd Font symbols a themed prompt uses (branch, status and battery icons). The font is free under the SIL Open Font License and must be installed first, from the [Nerd Fonts releases](https://github.com/ryanoasis/nerd-fonts/releases). Without it the terminal falls back to a default monospaced font. The editor font itself is unchanged. |
 | `git.autofetch` | `true` | Keeps remote tracking branches current without a manual `git fetch`. |
 | `mssql.connectionGroups` | one empty `ROOT` group | The MSSQL extension's own default, kept explicit so a fresh install starts from a known empty state. |
 | `mssql.autoDisableNonTSqlLanguageService` | `true` | Stops the MSSQL language service activating in files that are not T-SQL, avoiding false squiggles in other SQL dialects. |
@@ -26,6 +27,7 @@ deliberately not tracked here.
 | `terminal.integrated.enablePersistentSessions` | `false` | A clean shell every time VS Code reopens, for the same reason. |
 | `terminal.integrated.defaultProfile.windows` | `"PowerShell 7"` | On Windows, new terminals open PowerShell 7 through its launcher in `WindowsApps`, a path that stays the same when PowerShell updates. It starts with `-NoLogo`, so the version header and the profile load time message stay hidden. |
 | `yaml.disableSchemaDetection` | workflow globs | Stops the YAML extension guessing a schema for CI workflow files, where the platform's own schema applies. |
+| `discord.*`, `vscord.*` | file type only, no buttons | Both Discord presence extensions show only the file type (for example "Editing a TypeScript file") and never a file, workspace or repository name, so presence does not leak private project details. |
 
 ## `argv.json`
 
