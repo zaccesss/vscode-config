@@ -11,4 +11,8 @@ This repository's VS Code configuration has moved to the `editors/vscode` folder
 > [!NOTE]
 > This repository is archived and read-only.
 
-![VS Code in the Zacess Deep Contrast Dark theme](docs/demo/vscode-deep-contrast-dark.webp)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/demo/vscode-deep-contrast-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset="docs/demo/vscode-deep-contrast-light.webp">
+  <img alt="VS Code in the Zacess Deep Contrast Dark theme (the Zacess Deep Contrast Light theme in light mode)" src="docs/demo/vscode-deep-contrast-dark.webp">
+</picture>
